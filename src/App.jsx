@@ -18,7 +18,7 @@ function App() {
       {/* <Second/> */}
       <Navbar />
       <Routes>
-        <Route path="/" element={<First />} />
+        <Route path="" element={<First />} />
         <Route path="/shop" element={<Second />} />
         <Route path="/c" element={<New />} />
       </Routes>
